@@ -1,0 +1,47 @@
+/* style css untuk navbar */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar ul{
+    list-style: none;
+    background-color: wheat
+}
+
+.navbar{
+    background-color: rgb(160, 57, 57);
+    height: 100px;
+    width: 100%;
+    line-height: 30px;
+    position: relative;
+    margin: auto;
+    margin-top: 0px;
+    
+}
+.navbar a{
+    background: rgb(107, 47, 47);
+}
+.navbar a :hover{
+    background: rgb(153, 71, 71);
+}
+.navbar ul li a{
+    float: left;
+    width: 200%;
+    display: block;
+    /* text-align: center; */
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: larger;
+    background-color: rgb(151, 55, 55);
+}
+.navbar ul li a :hover{
+    background-color: crimson;
+    display: block;
+}
+li{
+
+}

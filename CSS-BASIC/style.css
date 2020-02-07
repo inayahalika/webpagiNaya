@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+body{
+    background-color: rgb(88, 79, 65);
+}
+h1{
+    margin: 10px 0 20px 0;
+    text-align: center;
+    color: rgb(167, 167, 143)
+}
+table{
+    width: 100%;
+    border-collapse: collapse
+}
+#kepala{
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: beige;
+    text-align: center;
+}
+.nomor{
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: rgb(165, 165, 142);
+    text-align: center;
+}
+.nama{
+    font-weight: 200%;
+    font-size: 20px;
+    background-color: rgb(196, 196, 169);
+    text-align: center
+}
+.gender{
+    font-weight: 200;
+    font-size: 20px;
+    background-color: rgb(173, 173, 146);
+    text-align: center;
+}
+.age{
+    font-weight: 200;
+    font-size: 20px;
+    background-color: rgb(211, 211, 169);
+    text-align: center;
+}

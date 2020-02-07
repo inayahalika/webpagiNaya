@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    background: burlywood
+}
+ul{
+    display: flex;
+    padding: 20px;
+}
+li{
+    margin: 0% 15px;
+    /* margin: 1px 2px 3px 4px */
+    list-style: none;
+    color: black;
+}
