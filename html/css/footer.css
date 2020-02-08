@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background-color: rgb(167, 114, 114);
+    position: absolute;
+    /* bottom: 38px; */
+    top: 600px;
+    height: 380px;
+    /* padding: 10px; */
+    width: 100%;
+}
+
+.tombol{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    display: block;
+    bottom: 38px;
+}
+
+.medsos a img{
+    width: 50px;
+    z-index: 10px;
+    background: white;
+}
+.medsos a img:hover{
+    width: 50px;
+    z-index: 10px;
+    background-image: linear-gradient(rgb(151, 104, 104),brown);
+    border-radius: 50%;
+}
+
+.map{
+    position: absolute;
+    right: 12px;
+}
