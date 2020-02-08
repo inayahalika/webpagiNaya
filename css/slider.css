@@ -7,7 +7,7 @@
 }
 
 body{
-	background-image: url(img/kkk.jpg);
+	background-image: url(../img/kkk.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -47,23 +47,15 @@ li{
 	/* display: inline-block; */
 }
 .menu li :hover{
-	background-color: white;
+	background-color: rgb(78, 61, 61);
 }
 
-.dropdown :hover .dropdown-content{
+.menu ul li:hover .dropdown-content{
 	display: block;
 }
 
-.dropdown .dropdown-content :hover{
-	color: rgb(77, 57, 57);
-	position: absolute;
-	display: none;
-    box-shadow: 0px 8px 16px 0px rgb(151, 151, 116);
-    z-index: 10;
-    background-color: rgb(172, 80, 80);
-    left: 100px;
-    top: 40px;
-	width: 100px;
+.dropdown-content :hover{
+	color: rgb(148, 112, 112);
 }
 
 .menu .dropdown-content{
@@ -71,8 +63,7 @@ li{
 	display: none;
     box-shadow: 0px 8px 16px 0px rgb(151, 151, 116);
     z-index: 10;
-    background-color: rgb(172, 80, 80);
-    left: 100px;
+    background-color: rgb(82, 56, 56);
     top: 40px;
 	width: 100px;
 }
@@ -106,7 +97,7 @@ h1{
 
 .isi-slider{
     position: absolute;
-    width: 3900px;
+    width: 3200px;
     /* pengaturan durasi lama tampil gambar */
     animation-name:"slider";
     animation-duration: 15s;
@@ -259,7 +250,7 @@ h1{
 
 @keyframes slider {     
 	0% {
-		left: 0; opacity: 0; 
+		left: 0; opacity: 1; 
 	}     
 	2% {
 		opacity: 1; 
@@ -274,10 +265,10 @@ h1{
 		opacity: 0; 
 	}     
 	25% {
-		left: -768px; opacity: 1; 
+		left: -800px; opacity: 1; 
 	}     
 	45% {
-		left: -768px; opacity: 1; 
+		left: -800px; opacity: 1; 
 	}     
 	46% {
 		opacity: 0; 
@@ -286,10 +277,10 @@ h1{
 		opacity: 0; 
 	}     
 	50% {
-		left: -1536px; opacity: 1; 
+		left: -1600px; opacity: 1; 
 	}     
 	70% {
-		left: -1536px; opacity: 1; 
+		left: -1600px; opacity: 1; 
 	}     
 	72% {
 		opacity: 0; 
@@ -298,13 +289,13 @@ h1{
 		opacity: 0; 
 	}    
 	75% {
-		left: -2304px; opacity: 1; 
+		left: -2400px; opacity: 1; 
 	}   	
 	95% {
-		left: -2304px; opacity: 1; 
+		left: -2400px; opacity: 1; 
 	}   	
 	97% { 
-		left: -2304px; opacity: 0; 
+		left: -2400px; opacity: 0; 
 	} 
 
 	100% {
