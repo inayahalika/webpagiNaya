@@ -1,0 +1,4 @@
+<?php
+
+    $hewan = array ('')
+?>
