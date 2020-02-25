@@ -1,59 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- css for grid -->
-    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-grid.css.map">
-    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css.map">
-    <!-- css for reboot -->
-    <link rel="stylesheet" href="assets/css/bootstrap-reboot.css.">
-    <link rel="stylesheet" href="assets/css/bootstrap-reboot.css.map">
-    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css.">
-    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css.map">
-    <!-- css for bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css.map">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css.map">
-</head>
-<body>
-    <div class="container-fluid">
-        <!-- untuk navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">CoffeeEnd</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Diary</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">History</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Galery
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Yours</a>
-                <a class="dropdown-item" href="#">Ours</a>
-                <a class="dropdown-item" href="#">Theirs</a>
-                </div>
-            </li>
-            </ul>
-                </div>
-        </nav>
-    <!-- tutup navbar -->
+<?php
+
+    include'header.php';
+?>
+
 
     <!-- untuk slider -->
 <div class="row">
@@ -123,89 +72,12 @@
         </table>
     </div>
 
-    <!-- Footer -->
-<footer class="page-footer font-small  footer-dark bg-dark pt-4">
+    
+<?php
 
-<!-- Footer Links -->
-<div class="container-fluid text-center text-md-left">
+    include 'footer.php';
 
-    <!-- Grid row -->
-    <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <h5 class="text-uppercase">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content.</p>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
-
-        <ul class="list-unstyled">
-            <li>
-            <a href="#!">Link 1</a>
-            </li>
-            <li>
-            <a href="#!">Link 2</a>
-            </li>
-            <li>
-            <a href="#!">Link 3</a>
-            </li>
-            <li>
-            <a href="#!">Link 4</a>
-            </li>
-        </ul>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
-
-        <ul class="list-unstyled">
-            <li>
-            <a href="#!">Link 1</a>
-            </li>
-            <li>
-            <a href="#!">Link 2</a>
-            </li>
-            <li>
-            <a href="#!">Link 3</a>
-            </li>
-            <li>
-            <a href="#!">Link 4</a>
-            </li>
-        </ul>
-
-        </div>
-        <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
-    </div>
-    <!-- Footer Links -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
+?>
 
 
 
@@ -221,16 +93,4 @@
 
 
 
-    <!-- js for bundle -->
-    <script src="assets/js/jquery.js"></script>
-    <script src= "assets/js/bootstrap.bundle.js"></script>
-    <script src= "assets/js/bootstrap.bundle.js.map"></script>
-    <script src= "assets/js/bootstrap.bundle.min.js"></script>
-    <script src= "assets/js/bootstrap.bundle.min.js.map"></script>
-    <!-- js for bootstrap -->
-    <script src= "assets/js/bootstrap.js"></script>
-    <script src= "assets/js/bootstrap.js.map"></script>
-    <script src= "assets/js/bootstrap.min.js"></script>
-    <script src= "assets/js/bootstrap.min.js.map"></script>
-</body>
-</html>
+    

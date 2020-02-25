@@ -1,6 +1,7 @@
 <?php
     $user = "member";
     $pass = "member13";
+    
 
     if ($user == "member" && $pass == "member123"){
         echo "Ke halaman member";
