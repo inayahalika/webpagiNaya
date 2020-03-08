@@ -43,10 +43,10 @@
         <table class="table table-striped table-dark">
         <thead>
             <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">No.</th>
+            <th scope="col">Fav Menu</th>
+            <th scope="col">Fav Toppings</th>
+            <th scope="col">Your Fav</th>
             </tr>
         </thead>
         <tbody>

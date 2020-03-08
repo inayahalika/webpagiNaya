@@ -1,5 +1,4 @@
 <?php
-
     include'header.php';
 ?>
     <div class="container">
@@ -15,6 +14,10 @@
                     <div class="form-group">
                         <label for="jurusan">Jurusan</label>
                         <input type="text" class="form-control col-sm-4" name="jurusan">
+                    </div>
+                    <div class="form-group">
+                        <label for="mata_kuliah">Mata Kuliah</label>
+                        <input type="text" class="form-control col-sm-4" name="mata_kuliah">
                     </div>
                     <div class="form-group">
                         <label for="nilai_harian">Nilai Harian</label>
@@ -53,41 +56,51 @@
                 if($data['hasil']<=50){
                     echo"
                         <div class='alert alert-danger' role='alert'>
-                            Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade E
+                            Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." dengan Mata Kuliah :".$data['mata_kuliah']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade E
 
-                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>   
+                            <a href='edit_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a> 
+                            
+                            <a href='proses/proses_hapus_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>hapus</a>
                         </div>
                     ";
                 }elseif($data['hasil']<=65){
                     echo"
                         <div class='alert alert-warning' role='alert'>
-                        Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade D
+                        Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." dengan Mata Kuliah :".$data['mata_kuliah']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade D
 
-                        <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                        <a href='edit_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                        
+                        <a href='proses/proses_hapus_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>hapus</a>
                         </div>
                     ";
                 }elseif($data['hasil']<=75){
                     echo"
                         <div class='alert alert-info' role='alert'>
-                        Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade C
+                        Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." dengan Mata Kuliah :".$data['mata_kuliah']."memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade C
 
-                        <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                        <a href='edit_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+
+                        <a href='proses/proses_hapus_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>hapus</a>
                         </div>
                     ";
                 }elseif($data['hasil']<=85){
                     echo"
                         <div class='alert alert-primary' role='alert'>
-                        Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade B
+                        Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." dengan Mata Kuliah :".$data['mata_kuliah']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade B
 
-                        <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                        <a href='edit_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+
+                        <a href='proses/proses_hapus_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>hapus</a>
                         </div>
                     ";
                 }elseif($data['hasil']<=100 || $data['hasil']>100){
                     echo"
                         <div class='alert alert-success' role='alert'>
-                        Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade A
+                        Nama : ".$data['nama_mahasiswa']." dengan Nim :".$data['nim_mahasiswa']." dan Jurusan :".$data['jurusan_mahasiswa']." dengan Mata Kuliah :".$data['mata_kuliah']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade A
 
-                        <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                        <a href='edit_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+
+                        <a href='proses/proses_hapus_mhs.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>hapus</a>
                         </div>
                     ";
                 }

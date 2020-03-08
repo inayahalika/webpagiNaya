@@ -1,4 +1,4 @@
-<?php
+0<?php
 
     include'header.php';
 ?>
@@ -34,7 +34,7 @@
     if (isset($_POST['tambah'])) {
         $nama = $_POST ['nama'];
         $harga = $_POST ['harga'];
-        $stok = $_POST['nama'];
+        $stok = $_POST['stok'];
         $kategori = $_POST['kategori'];
         $diskon = 20/100;
 

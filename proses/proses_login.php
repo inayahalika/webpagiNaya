@@ -1,5 +1,6 @@
 <?php
-include'../koneksi/koneksi.php';
+    session_start ();
+    include '../koneksi/koneksi.php';
 
 
         if (isset($_POST['input'])) {
@@ -30,15 +31,14 @@ include'../koneksi/koneksi.php';
                         echo "<script> 
                         alert (window.location.href='../nilai.php');
                         </script>";
-
-                    }else {
-                        'data yang anda masukkan salah';
                     }
                 }else{
-                    echo "Username dan Password tidak tersedia";
-                }
+                    echo '<script>alert("username dan password salah!")
+                    window.location.href="../loginn.php";
+                    </script>';
 
             }
+        }
 
             //     if ($user == 'member' && $password == 'member123') {
             //         header('location: nilai_bootstrap.php');
