@@ -14,7 +14,11 @@
 body {
 	margin: 0;
 	font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
-	background: rgb(134, 93, 93);
+	/* background : rgb(134, 93, 93); */
+	background-image : url('project/images/jjj.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .forms-section {

@@ -21,15 +21,18 @@
                         $_SESSION['status']="input";
 
                         echo "<script> 
-                        alert (window.location.href='../harga_bootstrap.php');
+                        alert('Welcome My Dear User')
+                        window.location.href='../admin/index.php';
                         </script>";
+
                     }else if($data['level']=="admin"){
                         $_SESSION['username']=$data['username'];
                         $_SESSION['level']=$data['level'];
                         $_SESSION['status']="input";
 
                         echo "<script> 
-                        alert (window.location.href='../nilai.php');
+                        alert('Welcome Admin!')
+                        window.location.href='../index.php';
                         </script>";
                     }
                 }else{
