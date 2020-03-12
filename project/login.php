@@ -312,7 +312,7 @@ body {
             <legend>Please, enter your email and password for login.</legend>
             <div class="input-block">
                 <label for="Username">Username</label>
-                <input id="" type="text" name="user" required>
+                <input id="" type="text" name="username" required>
             </div>
             <div class="input-block">
                 <label for="login-password">Password</label>
@@ -336,7 +336,7 @@ body {
             </div>
             <div class="input-block">
                 <label for="signup-username">Username</label>
-                <input id="signup-username" type="text" name="user" required>
+                <input id="signup-username" type="text" name="username" required>
             </div>
             <div class="input-block">
                 <label for="signup-password">Password</label>
@@ -357,6 +357,6 @@ body {
         </div>
     </div>
 </section>
-<script src="login.js"></script>
+<script src="../assets/js/login.js"></script>
 </body>
 </html>
