@@ -58,7 +58,7 @@
 					<span class="subheading">CoffeeEnd;</span>
 				<h1 class="mb-4">G'Day Mate!!</h1>
 				<p class="mb-4 mb-md-5">Make Ur Own Favorite Coffee till the End.</p>
-				<p><a href="../loginn.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Login</a> <a href="../html/slider.html" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
+				<p><a href="login.php" class="btn btn-primary p-3 px-xl-4 py-xl-3">Login</a> <a href="../html/slider.html" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</a></p>
 				</div>
 				<div class="col-md-6 ftco-animate">
 					<img src="images/rr.png" class="img-fluid" alt="">
